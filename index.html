@@ -89,14 +89,14 @@
     <!-- Основное содержимое главной страницы -->
     <main>
 
-      <section class="catalog wrapper">
+      <section class="promo wrapper">
         <h2>Каталоги товаров</h2>
 
         <div class="wrapper">
 
           <div class="materials">
             <h3>Материалы</h3>    
-            <a href="#" class="catalog-btn">
+            <a href="#" class="promo-btn">
               <p>На любой вкус</p>
             </a>
             <img src="https://via.placeholder.com/78x62" alt="Иконка материалы">
@@ -108,7 +108,7 @@
   
           <div class="instruments">
             <h3>Инструмент</h3>    
-            <a href="#" class="catalog-btn">
+            <a href="#" class="promo-btn">
               <p>На все случаи</p>
             </a>
             <img src="https://via.placeholder.com/78x62" alt="Иконка инструмент">
@@ -116,7 +116,7 @@
           
           <div class="equipment">
             <h3>Техника</h3>    
-            <a href="#" class="catalog-btn">
+            <a href="#" class="promo-btn">
               <p>Для стройки</p>
             </a>
             <img src="https://via.placeholder.com/78x62" alt="Иконка техника">
@@ -124,7 +124,7 @@
           
           <div class="discounts">
             <h3>Скидки 50%</h3>    
-            <a href="#" class="catalog-btn">
+            <a href="#" class="promo-btn">
               <p>На 350 товаров</p>
             </a>
             <img src="https://via.placeholder.com/78x62" alt="Иконка скидка">
@@ -132,10 +132,58 @@
           
           <div class="delivery">
             <h3>Доставка</h3>    
-            <a href="#" class="catalog-btn">
+            <a href="#" class="promo-btn">
               <p>Бесплатно</p>
             </a>
             <img src="https://via.placeholder.com/78x62" alt="Иконка доставка">
+          </div>
+
+          <div class="slider">
+            <!-- Картинка с мужиком явно фоном через сss пойдёт -->
+            <div class="slider-item">
+              <!-- Отдельный див для серого, почти прозрачного прямоугольника поверх остального -->
+              <div class="rectangle">
+                <h3>Перфораторы</h3>
+                <p>Настоящие мужские игрушки</p>
+              </div>
+              <div class="indicators">
+                <button class="indicator" type="button">
+                  <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
+                </button>
+                <button class="indicator active" type="button">
+                  <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
+                </button>
+              </div>                           
+            </div>
+            <div class="slider-item">
+              <div class="rectangle">
+                <h3>Дрели</h3>
+                <p>Соседям на радость</p>
+              </div>
+              <!-- Ощущение, что стрелки расположить проще будет флексом, например -->
+              <div class="arrows">
+                <button class="arrow-left"  type="button">
+                  <img src="https://via.placeholder.com/22x40" alt="Иконка стрелки влево">
+                </button>
+                <button class="arrow-right"  type="button">
+                  <img src="https://via.placeholder.com/22x40" alt="Иконка стрелки вправо">
+                </button>
+              </div>
+              <!-- Тут не уверен, но индикаторы выглядят как будто отдельным блоком -->
+              <div class="indicators">
+                <button class="indicator" type="button">
+                  <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
+                </button>
+                <button class="indicator active" type="button">
+                  <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
+                </button>
+                <div class="catalog-btn">
+                  <a href="catalog.html">
+                    Открыть каталог
+                  </a>
+                </div>
+              </div>                           
+            </div>
           </div>
 
         </div>
