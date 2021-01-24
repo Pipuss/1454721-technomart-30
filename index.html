@@ -15,20 +15,16 @@
       <div class="header-top">
         <!-- Контейнер центровщик для содержимого полоски -->
         <div class="wrapper">
-          <a class="header-logo" href="#"><img src="https://via.placeholder.com/220x47" alt="Техномарт"></a>
-          <form action="#" method="get">
-            <button type="submit">
-              <img src="https://via.placeholder.com/17x17" alt="Иконка кнопки поиска">
-            </button>
-            <label for="search-field"></label>
-            <input type="search" name="search-field" id="search-field" placeholder="Поиск:">
-          </form>
+          <a class="header-logo" href="#"><img src="https://via.placeholder.com/220x47" alt="Техномарт"></a>          
+          <button type="submit">
+            <!-- Временно иконку поиска сделаем кнопкой -->
+          </button>
+          <label for="search-field">Поле поиска</label>
+          <input type="search" name="search-field" id="search-field" placeholder="Поиск:">          
           <a href="">
-            <img src="https://via.placeholder.com/14x16" alt="Иконка ссылки закладок">
             Закладки: 0
           </a>
           <a href="">
-            <img src="https://via.placeholder.com/15x15" alt="Иконка ссылки корзины">
             Корзина: 0
           </a>
           <a href="#">Оформить заказ</a>
@@ -44,22 +40,22 @@
           <!-- Информация о магазине -->
           <div class="header-info">
             <h1>Интернет-магазин строительных материалов и иснструментов для ремонта</h1>
-            <a href="tel:+78125550555">
-              <img src="https://via.placeholder.com/19x19" alt="Иконка телефона">
-              +7 (812) 555-05-55
-            </a>
-            <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-            <a href="#">
-              <img src="https://via.placeholder.com/20x17" alt="Иконка ссылки войти">
-              Войти
-            </a>
-            <a href="#">Регистрация</a>
+            <div>
+              <a href="tel:+78125550555">
+                +7 (812) 555-05-55
+              </a>
+              <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+            </div>
+            <div>
+              <a href="#">Войти</a>
+              <a href="#">Регистрация</a>
+            </div>
           </div>
           <!-- Основная навигация -->
           <nav class="main-nav">
             <ul>
               <li>
-                <a href="index.html">Главная</a>
+                <a href="№">Главная</a>
               </li>
               <li>
                 <a href="#">Компания</a>
@@ -97,45 +93,41 @@
           <div class="materials">
             <h3>Материалы</h3>    
             <a href="#" class="promo-btn">
-              <p>На любой вкус</p>
+              На любой вкус
             </a>
-            <img src="https://via.placeholder.com/78x62" alt="Иконка материалы">
-            <!-- Перевернуть потом в сss чтоли? -->
-            <div class="new">
-              <p>NEW</p>
-            </div>
+            <!-- Иконка материалы -->
           </div>
   
           <div class="instruments">
             <h3>Инструмент</h3>    
             <a href="#" class="promo-btn">
-              <p>На все случаи</p>
+              На все случаи
             </a>
-            <img src="https://via.placeholder.com/78x62" alt="Иконка инструмент">
+            <!-- Иконка инструмент -->
           </div>
           
           <div class="equipment">
             <h3>Техника</h3>    
             <a href="#" class="promo-btn">
-              <p>Для стройки</p>
+              Для стройки
             </a>
-            <img src="https://via.placeholder.com/78x62" alt="Иконка техника">
+            <!-- Иконка техника -->
           </div>
           
           <div class="discounts">
             <h3>Скидки 50%</h3>    
             <a href="#" class="promo-btn">
-              <p>На 350 товаров</p>
+              На 350 товаров
             </a>
-            <img src="https://via.placeholder.com/78x62" alt="Иконка скидка">
+            <!-- Иконка скидка -->
           </div>
           
           <div class="delivery">
             <h3>Доставка</h3>    
             <a href="#" class="promo-btn">
-              <p>Бесплатно</p>
+              Бесплатно
             </a>
-            <img src="https://via.placeholder.com/78x62" alt="Иконка доставка">
+            <!-- Иконка доставка -->
           </div>
 
           <div class="promo-slider">
@@ -148,11 +140,9 @@
                   <h3>Перфораторы</h3>
                   <p>Настоящие мужские игрушки</p>
                 </div>
-                <div class="catalog-btn">
-                  <a href="catalog.html">
-                     Открыть каталог
-                  </a>
-                </div>               
+                <a class="catalog-btn" href="catalog.html">
+                  Открыть каталог
+                </a>               
               </div>
   
               <div class="slider-item">
@@ -160,31 +150,24 @@
                   <h3>Дрели</h3>
                   <p>Соседям на радость</p>
                 </div>
-                <div class="catalog-btn">
-                  <a href="catalog.html">
-                     Открыть каталог
-                  </a>
-                </div>
+                <a class="catalog-btn" href="catalog.html">
+                  Открыть каталог
+                </a>   
               </div>   
             </div>
 
             <!-- Ощущение, что стрелки расположить проще будет флексом, например -->
             <div class="arrows">
               <button class="arrow-left"  type="button">
-                <img src="https://via.placeholder.com/22x40" alt="Иконка стрелки влево">
+                <!-- Стрелка влево -->
               </button>
               <button class="arrow-right"  type="button">
-                <img src="https://via.placeholder.com/22x40" alt="Иконка стрелки вправо">
+                <!-- Стрелка вправо -->
               </button>
             </div>
-            <!-- Тут не уверен, но индикаторы выглядят как будто отдельным блоком -->
             <div class="indicators">
-              <button class="indicator" type="button">
-                <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
-              </button>
-              <button class="indicator active" type="button">
-                <img src="https://via.placeholder.com/10x10" alt="Иконка индикатора">
-              </button>                        
+              <input type="radio" name="indicator-left">                        
+              <input type="radio" name="indicator-right">                        
             </div>
           </div>
 
@@ -210,9 +193,6 @@
           </div>
 
           <div class="popular-item">
-            <div class="new">
-              <p>NEW</p>
-            </div>
             <img src="https://via.placeholder.com/184x164" alt="Карточка товара">
             <p><b>Перфоратор BOSCH BFG 3000</b></p>
             <p><del>22500 Р.</del></p>
@@ -227,9 +207,6 @@
           </div>
 
           <div class="popular-item">
-            <div class="new">
-              <p>NEW</p>
-            </div>
             <img src="https://via.placeholder.com/184x164" alt="Карточка товара">
             <p><b>Перфоратор BOSCH BFG 2000</b></p>
             <p><del>22500 Р.</del></p>
@@ -250,33 +227,15 @@
           <a class="catalog-btn" href="#">Все производители</a>
         </div>
 
-        <div class="popular-manufactures">
-
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="BOSCH"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="Makita"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="DeWalt"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="Интерскол"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="HITACHI"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="LG"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="AEG Power Solutions"></a>
-          </div>
-          <div class="manufactures-item">
-            <a href="#"><img src="https://via.placeholder.com/151x98" alt="METABO"></a>
-          </div>
-
+        <div class="popular-manufactures">          
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="BOSCH"></a>          
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="Makita"></a>         
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="DeWalt"></a>         
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="Интерскол"></a>         
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="HITACHI"></a>         
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="LG"></a>        
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="AEG Power Solutions"></a>         
+          <a href="#"><img src="https://via.placeholder.com/151x98" alt="METABO"></a>
         </div>
 
       </section>
@@ -285,49 +244,40 @@
 
         <div class="wrapper">
 
-          <div class="services-header">
-            <h2>Сервисы</h2>
-            <p>Хороший интернет-магазин отличается от плохого не только ценами!
-              Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+          <h2>Сервисы</h2>
+          <p>Хороший интернет-магазин отличается от плохого не только ценами!
+            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+            <div class="services-slider">
+          <div class="services-slider-btns">
+            <button class="slider-btn" type="button">Доставка</button>
+            <button class="slider-btn" type="button">Гарантия</button>
+            <button class="slider-btn" type="button">Кредит</button>
+          </div>
+          <div class="services-slider-items">
+            <div class="slider-item">
+              <h3>Доставка</h3>
+              <p>Мы с удовольствием доставим ваш товар прямо 
+                к вашему подъезду совершенно бесплатно!
+                Ведь мы неплохо заработаем, 
+                поднимая его на ваш этаж!</p>                
+            </div>
+            <div class="slider-item">
+              <h3>Гарантия</h3>
+              <p>Если купленный у нас товар поломается или заискрит,
+                 а также в случае пожара, спровоцированного его возгоранием,  
+                 вы всегда можете быть уверены в нашей гарантии. 
+                 Мы обменяем сгоревший товар на новый. 
+                 Дом уж восстановите как-нибудь сами.</p>                
+            </div>
+            <div class="slider-item">
+              <h3>Кредит</h3>
+              <p>Если купленный у нас товар поломается или заискрит, 
+                 а также в случае пожара, спровоцированного его </p>   
+              <a class="credit-btn" href="#">Отправить заявку</a>             
+            </div>
           </div>
 
-          
-
-          <div class="services-slider">
-
-            <div class="services-slider-btns">
-              <button class="slider-btn" type="button">Доставка</button>
-              <button class="slider-btn" type="button">Гарантия</button>
-              <button class="slider-btn" type="button">Кредит</button>
-            </div>
-
-            <div class="services-slider-items">
-
-              <div class="slider-item">
-                <h3>Доставка</h3>
-                <p>Мы с удовольствием доставим ваш товар прямо 
-                  к вашему подъезду совершенно бесплатно!
-                  Ведь мы неплохо заработаем, 
-                  поднимая его на ваш этаж!</p>                
-              </div>
-              <div class="slider-item">
-                <h3>Гарантия</h3>
-                <p>Если купленный у нас товар поломается или заискрит,
-                   а также в случае пожара, спровоцированного его возгоранием,  
-                   вы всегда можете быть уверены в нашей гарантии. 
-                   Мы обменяем сгоревший товар на новый. 
-                   Дом уж восстановите как-нибудь сами.</p>                
-              </div>
-              <div class="slider-item">
-                <h3>Кредит</h3>
-                <p>Если купленный у нас товар поломается или заискрит, 
-                   а также в случае пожара, спровоцированного его </p>   
-                <a class="credit-btn" href="#">Отправить заявку</a>             
-              </div>
-
-            </div>
-
-          </div>
+        </div>
 
         </div>
       </section>
@@ -369,10 +319,10 @@
 
           <div class="footer-about">
             <a class="footer-logo" href="#"><img src="https://via.placeholder.com/220x68" alt="Техномарт"></a>
-            <p>
-              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            <div>
+              <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
               <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-            </p>
+            </div>
           </div>
 
           <div class="footer-navigation">
@@ -399,32 +349,24 @@
       <div class="footer-bottom">
         <div class="wrapper">
 
-          <div class="copyright">
-            <p>© 2010–2019 Компания «Техномарт»
-               Все права защищены</p>
-          </div>
+          <p>© 2010–2019 Компания «Техномарт»
+             Все права защищены</p>
 
-          <div class="social">
-            <a href="https://vk.com/htmlacademy"><img src="https://via.placeholder.com/44x44" alt="Вконтакте"></a>
-            <a href="https://www.facebook.com/htmlacademy"><img src="https://via.placeholder.com/44x44" alt="Фейсбук"></a>
-            <a href="https://www.instagram.com/htmlacademy/"><img src="https://via.placeholder.com/44x44" alt="Инстаграм"></a>
-          </div>
+          <ul class="social">
+            <li><a href="https://vk.com/htmlacademy">Вконтакте</a></li>
+            <li><a href="https://www.facebook.com/htmlacademy">Фейсбук</a></li>
+            <li><a href="https://www.instagram.com/htmlacademy/">Инстаграм</a></li>
+          </ul>
 
-          <div class="footer-contacts">
-            <div class="mail">
-              <p>
-                Обратная связь:
-                <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-              </p>
-            </div>
-            <div class="web">
-              <p>
-                Разработано —
-                <a href="htmlacademy.ru">htmlacademy.ru</a>
-              </p>
-            </div>
-          </div>
-
+          <p>
+            Обратная связь:
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
+          <p>
+            Разработано —
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          </p>
+                  
         </div>
       </div>
 
