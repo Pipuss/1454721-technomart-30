@@ -16,15 +16,16 @@
         <!-- Контейнер центровщик для содержимого полоски -->
         <div class="wrapper">
           <a class="header-logo" href="#"><img src="https://via.placeholder.com/220x47" alt="Техномарт"></a>          
-          <button type="submit">
+          <button type="button">
             <!-- Временно иконку поиска сделаем кнопкой -->
+            Поиск
           </button>
           <label for="search-field">Поле поиска</label>
           <input type="search" name="search-field" id="search-field" placeholder="Поиск:">          
-          <a href="">
+          <a href="#">
             Закладки: 0
           </a>
-          <a href="">
+          <a href="#">
             Корзина: 0
           </a>
           <a href="#">Оформить заказ</a>
@@ -36,26 +37,24 @@
       <!-- Контейнер для серого фона -->
       <div class="header-middle">
         <!-- Центровщик -->
-        <div class="wrapper">
+        < class="wrapper">
           <!-- Информация о магазине -->
-          <div class="header-info">
-            <h1>Интернет-магазин строительных материалов и иснструментов для ремонта</h1>
-            <div>
-              <a href="tel:+78125550555">
-                +7 (812) 555-05-55
-              </a>
-              <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-            </div>
-            <div>
-              <a href="#">Войти</a>
-              <a href="#">Регистрация</a>
-            </div>
+          <h1>Интернет-магазин строительных материалов и иснструментов для ремонта</h1>
+          <div>
+            <a href="tel:+78125550555">
+              +7 (812) 555-05-55
+            </a>
+            <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+          </div>
+          <div>
+            <a href="#">Войти</a>
+            <a href="#">Регистрация</a>
           </div>
           <!-- Основная навигация -->
           <nav class="main-nav">
             <ul>
               <li>
-                <a href="№">Главная</a>
+                <a href="#">Главная</a>
               </li>
               <li>
                 <a href="#">Компания</a>
@@ -166,7 +165,9 @@
               </button>
             </div>
             <div class="indicators">
-              <input type="radio" name="indicator-left">                        
+              <label for="indicator-left">Левый индикатор</label>
+              <input type="radio" name="indicator-left"> 
+              <label for="indicator-right">Правый индикатор</label>                       
               <input type="radio" name="indicator-right">                        
             </div>
           </div>
